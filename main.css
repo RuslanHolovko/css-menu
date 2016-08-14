@@ -1,3 +1,5 @@
+@import url("animation.css");
+
 *{
 	margin: 0;
 	padding: 0;
@@ -83,23 +85,7 @@ nav ul li.project:hover{
 	animation: uit .5s forwards;
 }
 
- @-webkit-keyframes uit {
-		0%{
-			height: 35px;
-			width: 188px;
-		  }
 
-		  50%{
-		  	height: 35px;
-		  	width: 188px;
-		  }
-	
-		100%{
-			height: 231px;
-			width: 188px;
-		    }	
-					
-	}
 
 	h1{
 		font-size: 50px;
@@ -110,7 +96,8 @@ nav ul li.project:hover{
 	}
 
 	p{
-		font-size: 20px;
+		font-family: roboto light;
+		font-size: 18px;
 		letter-spacing: 1px;
 		width: 1000px;
 		margin: 20px auto 70px;
@@ -139,6 +126,8 @@ a:hover:after{
   animation: fill .3s forwards ;
   z-index: -1;
 }
+
+
 
 @-webkit-keyframes fill {
   0% {
